@@ -1,6 +1,6 @@
 export default function Home() {
 	return (
-		<div className='h-screen w-screen bg-site-offline relative flex justify-center items-center'>
+		<div className='h-screen w-screen bg-site-offline bg-no-repeat bg-center bg-cover relative flex justify-center items-center'>
 			<div className='absolute top-0 left-0 bg-primary h-screen w-screen opacity-90 z-0' />
 			<div className='z-10 flex flex-col sm:flex-row items-center justify-center'>
 				<div className='flex flex-col z-10 mb-16 sm:mb-0 sm:mr-24 items-center'>
@@ -12,7 +12,7 @@ export default function Home() {
 					<div className='mb-6'>
 						<span className='text-white opacity-60'>Email</span>
 						<h2 className='text-white font-medium text-xl'>
-							denis.rostohar@gmail.com
+							dlrprodukcija.zagreb@gmail.com
 						</h2>
 					</div>
 					<div className='mb-6'>
