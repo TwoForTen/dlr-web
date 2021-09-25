@@ -19,13 +19,21 @@ export default function Home() {
 						<span className='text-white opacity-60'>Telefon</span>
 						<h2 className='text-white font-medium text-xl'>+385 91 949 0892</h2>
 					</div>
-					<div>
+					<div className='mb-4'>
 						<span className='text-white opacity-60'>Adresa</span>
 						<h2 className='text-white font-medium text-xl'>
 							Draganička grana 17,
 							<br />
 							<span className='text-white font-medium'>10 000 Zagreb</span>
 						</h2>
+					</div>
+					<div className='flex justify-center sm:justify-start'>
+						<a href='https://www.facebook.com/DLRprodukcija' className='mr-4'>
+							<img src='/icons/facebook.svg' />
+						</a>
+						<a href='https://www.instagram.com/dlr_produkcija/'>
+							<img src='/icons/instagram.svg' />
+						</a>
 					</div>
 				</div>
 			</div>
